@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping Cart Example</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div id="products">
+      <div class="product">
+        <h3>Buzz holistic - $340</h3>
+        <img src="/IMG/Buzz.png" alt="Product 1" class="zoomable" />
+        <button class="add-to-cart" data-product-id="1" data-price="340">
+          Add to Cart <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button class="remove-from-cart" data-product-id="1">
+          Delete from Cart <i class="fa-solid fa-trash-can"></i>
+        </button>
+      </div>
+      <div class="product">
+        <h3>Pramy - $25</h3>
+        <img src="/IMG/Pramy.png" alt="Product 2" class="zoomable" />
+        <button class="add-to-cart" data-product-id="2" data-price="20">
+          Add to Cart <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button class="remove-from-cart" data-product-id="2">
+          Delete from Cart <i class="fa-solid fa-trash-can"></i>
+        </button>
+      </div>
+      <div class="product">
+        <h3>Lifemate - $270</h3>
+        <img src="/IMG/Lifemate.png" alt="Product 3" class="zoomable" />
+        <button class="add-to-cart" data-product-id="3" data-price="270">
+          Add to Cart <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button class="remove-from-cart" data-product-id="3">
+          Delete from Cart <i class="fa-solid fa-trash-can"></i>
+        </button>
+      </div>
+    </div>
+    
+    <div class="cart">
+ 
+   
+    <div id="cart">
+       <h2>Cart</h2>
+      <p>No items in cart.</p>
+    </div>
+</div>
+    <script src="cart.js"></script>
+  </body>
+</html>
